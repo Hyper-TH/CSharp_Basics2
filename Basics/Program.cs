@@ -10,7 +10,9 @@ namespace Basics
     {
         static void Main(string[] args)
         {
-            Exceptions.ShowExceptions();
+            // Exceptions.ShowExceptions();
+            PrintErrors.ShowPrintErrors();
+
 
             Console.ReadLine();
         }
