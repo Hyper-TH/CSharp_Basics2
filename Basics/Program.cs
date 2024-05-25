@@ -11,8 +11,8 @@ namespace Basics
         static void Main(string[] args)
         {
             // Exceptions.ShowExceptions();
-            PrintErrors.ShowPrintErrors();
-
+            // PrintErrors.ShowPrintErrors();
+            CustomTryParse.ShowCustomTryParse();
 
             Console.ReadLine();
         }
