@@ -12,7 +12,8 @@ namespace Basics
         {
             // Exceptions.ShowExceptions();
             // PrintErrors.ShowPrintErrors();
-            CustomTryParse.ShowCustomTryParse();
+            // CustomTryParse.ShowCustomTryParse();
+            Debugging.ShowDebugging();
 
             Console.ReadLine();
         }
