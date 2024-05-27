@@ -46,6 +46,7 @@
     <Compile Include="CustomTryParse.cs" />
     <Compile Include="Debugging.cs" />
     <Compile Include="Exceptions.cs" />
+    <Compile Include="FixLogicError.cs" />
     <Compile Include="LocalAutoWindow.cs" />
     <Compile Include="PrintErrors.cs" />
     <Compile Include="Program.cs" />
