@@ -15,7 +15,8 @@ namespace Basics
             // CustomTryParse.ShowCustomTryParse();
             // Debugging.ShowDebugging();
             // LocalAutoWindow.ShowWindow();
-            FixLogicError.ShowFixLogicError();
+            // FixLogicError.ShowFixLogicError();
+            Structures.ShowStructures();
 
             Console.ReadLine();
         }
