@@ -13,7 +13,8 @@ namespace Basics
             // Exceptions.ShowExceptions();
             // PrintErrors.ShowPrintErrors();
             // CustomTryParse.ShowCustomTryParse();
-            Debugging.ShowDebugging();
+            // Debugging.ShowDebugging();
+            LocalAutoWindow.ShowWindow();
 
             Console.ReadLine();
         }
