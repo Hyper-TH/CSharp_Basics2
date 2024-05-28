@@ -17,7 +17,8 @@ namespace Basics
             // LocalAutoWindow.ShowWindow();
             // FixLogicError.ShowFixLogicError();
             // Structures.ShowStructures();
-            Classes.ShowClasses();
+            // Classes.ShowClasses();
+            ClassFunctions.ShowClassFunctions();
 
             Console.ReadLine();
         }
