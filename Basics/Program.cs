@@ -16,7 +16,8 @@ namespace Basics
             // Debugging.ShowDebugging();
             // LocalAutoWindow.ShowWindow();
             // FixLogicError.ShowFixLogicError();
-            Structures.ShowStructures();
+            // Structures.ShowStructures();
+            Classes.ShowClasses();
 
             Console.ReadLine();
         }
