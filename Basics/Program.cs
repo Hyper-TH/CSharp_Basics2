@@ -18,7 +18,8 @@ namespace Basics
             // FixLogicError.ShowFixLogicError();
             // Structures.ShowStructures();
             // Classes.ShowClasses();
-            ClassFunctions.ShowClassFunctions();
+            // ClassFunctions.ShowClassFunctions();
+            ClassFields.ShowClassFields();
 
             Console.ReadLine();
         }

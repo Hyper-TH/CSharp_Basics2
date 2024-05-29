@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes.cs" />
+    <Compile Include="ClassFields.cs" />
+    <Compile Include="ClassFunctions.cs" />
     <Compile Include="CustomTryParse.cs" />
     <Compile Include="Debugging.cs" />
     <Compile Include="Exceptions.cs" />
