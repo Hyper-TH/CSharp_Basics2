@@ -19,7 +19,8 @@ namespace Basics
             // Structures.ShowStructures();
             // Classes.ShowClasses();
             // ClassFunctions.ShowClassFunctions();
-            ClassFields.ShowClassFields();
+            // ClassFields.ShowClassFields();
+            ClassScopes.ShowClassScopes();
 
             Console.ReadLine();
         }
