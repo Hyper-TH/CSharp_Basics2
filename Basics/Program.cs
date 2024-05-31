@@ -11,12 +11,12 @@ namespace Basics
     class Person
     {
         // For auto properties, use public; Use this method if there's no additional logic
-        public string name { get; set; }
-        public int age { get; set;  }
+        // public string name { get; set; }
+        // public int age { get; set;  }
 
         // For properties and GettersSetters use private
-        // private string name;
-        // private int age;
+        private string name;
+        private int age;
 
         // Public variables (middle man) / Properties
         /*
@@ -38,14 +38,12 @@ namespace Basics
         public Person(string name, int age)
         {
             // No need for these if doing properties
-            // this.name = name;
-            // this.age = age;
+            this.name = name;
+            this.age = age;
 
-            Name = name;
-            Age = age;
+            // Name = name;
+            // Age = age;
         }
-
-        // Properties
 
         // Getters and Setters
         /*
@@ -65,8 +63,8 @@ namespace Basics
     {
         static void Main(string[] args)
         {
-            // ShowLessons();
-            Person person = new Person("Hyper", 23);
+            ShowLessons();
+            /*Person person = new Person("Hyper", 23);
             Console.WriteLine(person.ReturnDetails());
 
             person.Name = "Harry";
@@ -74,6 +72,7 @@ namespace Basics
 
             Console.WriteLine(person.ReturnDetails());
             Console.WriteLine($"Your name is {person.Name} and your age is {person.Age}");
+            */
 
             Console.ReadLine();
         }
@@ -91,6 +90,7 @@ namespace Basics
             // ClassFunctions.ShowClassFunctions();
             // ClassFields.ShowClassFields();
             // ClassScopes.ShowClassScopes();
+            ClassToString.ShowToString();
         }
     }
 }
